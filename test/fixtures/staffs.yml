@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  staff_id: 1
+  name: MyString
+  role: MyString
+  salary: 1.5
+  join_date: 2013-12-01
+
+two:
+  staff_id: 1
+  name: MyString
+  role: MyString
+  salary: 1.5
+  join_date: 2013-12-01
