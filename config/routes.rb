@@ -1,4 +1,6 @@
 TheSchoolMan::Application.routes.draw do
+  resources :subjects
+
   resources :students
 
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
