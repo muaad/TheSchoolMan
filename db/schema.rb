@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131201190649) do
+ActiveRecord::Schema.define(version: 20131224222458) do
 
   create_table "rails_admin_histories", force: true do |t|
     t.text     "message"
@@ -52,6 +52,14 @@ ActiveRecord::Schema.define(version: 20131201190649) do
     t.string   "role"
     t.float    "salary"
     t.date     "join_date"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "students", force: true do |t|
+    t.integer  "adm_no"
+    t.string   "first_name"
+    t.string   "last_name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
